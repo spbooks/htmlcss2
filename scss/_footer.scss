@@ -1,0 +1,34 @@
+body > footer {
+  clear: both;
+  small {
+    font-family: LeagueGothic, Tahoma, Geneva, sans-serif;
+    text-transform: uppercase;
+    line-height: 32px;
+    padding: 0 0 0 7px;
+    letter-spacing: .08em;
+    text-shadow: rgba(0,0,0,0.4) 1px 1px 4px;
+    float: left;
+  }
+
+  p:last-of-type {
+    float: right;
+    padding: 5px 0 0 0;
+  }
+
+  section {
+    float: left;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+
+.footerinfo {
+  clear: both;
+  height: 30px;
+  width: 100%;
+  background: transparent;
+}
+

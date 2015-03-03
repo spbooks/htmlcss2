@@ -1,0 +1,11 @@
+.ad-ad4 {
+  position: relative;
+  .no-geolocation & {
+    display: none;
+  }
+  h1 {
+    font-size: 20px;
+    font-family: AcknowledgementMedium;
+    text-align: center;
+  }
+}

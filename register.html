@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" manifest="herald.appcache">
+  <head>
+    <meta charset="utf-8">
+    <title>The HTML5 Herald</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css?v=1.0"/>
+    <script src="js/modernizr.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="h">
+        <h1><span>The </span><a href="index.html">HTML5 <img src="images/logo.png" class="logo" alt="HTML5 Herald"> Herald</a></h1>
+        <h2 class="tagline">Produced with That Good ol' Timey HTML5 &amp; CSS3</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="register.html">Sign Up</a></li>
+          <li><a href="canvas.html">Canvas Demos</a></li>
+        </ul>
+      </nav>
+      <p class="volume">Vol. MMXI</p>
+      <p class="issue"><time datetime="1904-06-04" pubdate>June 4, 1904</time></p>
+    </header>
+
+    <form id="register" method="post">
+      <h1>Sign Me Up!</h1>
+      <p>I would like to receive your fine publication.</p>
+
+      <ul>
+        <li>
+          <label for="name">My name is:</label>
+          <input type="text" id="name" name="name" required>
+        </li>
+        <li>
+          <label for="email">My email address is:</label>
+          <input type="email" id="email" name="email" required>
+        </li>
+        	<li>
+            <label for="rememberme">Remember me on this computer</label>
+            <input type="checkbox"  value="yes"  id="rememberme">
+          </li>
+          <li>
+            <label for="url">My website is located at:</label>
+            <input type="url" id="url" name="url" placeholder="http://example.com">
+          </li>
+          <li>
+            <label for="password">I would like my password to be:</label>
+            <p>(at least 6 characters, no spaces)</p>
+            <input type="password" id="password" name="password" required pattern="\S{6,}">
+          </li>
+          <li>
+            <label for="rating">On a scale of 1 to 10, my knowledge of HTML5 is:</label>
+            <input min="1" max="10" id="rating" name="rating" type="range">
+          </li>
+          <li>
+            <label for="startdate">Please start my subscription on:</label>
+            <input type="date" id="startdate" name="startdate" min="1904-03-17" max="1904-05-17" required>
+          </li>
+          <li>
+            <label for="quantity">I would like to receive <input type="number" name="quantity" id="quantity" min="1" max="10" value="1"> copies of <cite>The HTML5 Herald</cite>.</label>
+          </li>
+          <li>
+            <label for="upsell">Also sign me up for <cite>The CSS3 Chronicle</cite></label>
+            <input id="upsell" name="upsell" type="checkbox">
+          </li>
+      </ul>
+      <input type="submit" id="register-submit" value="Send Post Haste"/>
+    </form>
+    <footer>
+      <small>&copy; SitePoint </small>
+      <p><a href="http://www.sitepoint.com"><img src="images/logo-sp.gif" alt="SitePoint" width="74" height="20"></a></p>
+    </footer>
+    <script>
+      if (!Modernizr.input.placeholder) {
+      	$("input[placeholder], textarea[placeholder]").each(function(){
+      		if ($(this).val() == "") {
+      			$(this).val($(this).attr("placeholder"));
+      			$(this).focus(function(){
+      				if ($(this).val() == $(this).attr("placeholder")) {
+      					$(this).val("");
+      					$(this).removeClass('placeholder');
+      				}
+      			});
+      			$(this).blur(function(){
+      				if ($(this).val() == "") {
+      					$(this).val($(this).attr("placeholder"));
+      					$(this).addClass('placeholder');
+      				}
+      			});
+      		}
+      	});
+
+      	$('form').submit(function(){
+      		// first do all the checking for required element and form validation.
+      		// Only remove placeholders before final submission
+      		var placeheld = $(this).find('[placeholder]');
+      		for (var i = 0; i < placeheld.length; i++) {
+      			if (($(placeheld[i]).val() == $(placeheld[i]).attr('placeholder'))) {
+      				// if not required, set value to empty before submitting
+      				$(placeheld[i]).attr('value', '');
+      			}
+      		}
+
+      	});
+      }
+    	</script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+      <script type="text/javascript" src="js/rememberMe.js"></script>
+
+  </body>
+</html>

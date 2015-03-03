@@ -1,0 +1,46 @@
+
+
+html {
+  background: transparent url(../images/bg-main.gif) repeat 0 0;
+  height: 100%;
+}
+
+body {
+  width: 758px;
+  margin: 6px auto 0;
+  border-top: solid 1px #8e8e8e;
+  background: transparent url(../images/bg-texture.png) no-repeat top center;
+  height: 100%;
+  color: #484848;
+  font-size: 13px;
+  position: relative;
+  font-family: Times, "Times New Roman", serif;
+}
+
+a {
+  color: #484848;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0 0 13px 0;
+  text-align: justify;
+  line-height: 1em;
+}
+
+h1 {
+  text-shadow: #fff 1px 1px;
+  font-family: LeagueGothic, Tahoma, Geneva, sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+h2 {
+  font-family: LeagueGothic, Tahoma, Geneva, sans-serif;
+  padding: 7px 0 0 0;
+  margin: 0;
+}

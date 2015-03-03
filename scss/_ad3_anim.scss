@@ -1,0 +1,69 @@
+.ad-ad3 {
+  background-image:
+    url(../images/gradient.svg);
+  /* Gradient syntax for WebKit */
+  background-image:
+    -webkit-linear-gradient(top,
+    rgba(0,0,0,0.4) 0,
+    rgba(0,0,0,0) 37%,
+    rgba(0,0,0,0) 83%,
+    rgba(0,0,0,0.06) 92%,
+    rgba(0,0,0,0) 98%);
+  /* Unprefixed W3C syntax */
+  background-image:
+    linear-gradient(top,
+    rgba(0,0,0,0.4) 0,
+    rgba(0,0,0,0) 37%,
+    rgba(0,0,0,0) 83%,
+    rgba(0,0,0,0.06) 92%,
+    rgba(0,0,0,0) 98%);
+
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  h1 {
+    color: #484848;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #fff;
+    font-family: LeagueGothic, Arial Narrow, Helvetica, sans-serif;
+    font-size: 42px;
+    letter-spacing: -1px;
+    margin: 20px 5px 0;
+    text-shadow: #fff 1px 1px;
+    &:after {
+      content: '';
+      width: 90px;
+      height: 92px;
+      background-image: url(../images/bike_sprite.png);
+      display: block;
+      margin: auto;
+      -webkit-animation: bike steps(4, start) infinite 0.4s,
+          move linear infinite 8s;
+      -webkit-animation-play-state: paused;
+    }
+    &:hover:after {
+      -webkit-animation-play-state: running;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+@-webkit-keyframes bike {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+     background-position: -360px 0;
+  }
+}
+
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translatex(-100px)
+  }
+  100% {
+    -webkit-transform: translatex(100px)
+  }
+}

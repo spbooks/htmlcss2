@@ -1,0 +1,96 @@
+#video-container {
+    width: 373px;
+    margin: 0 auto;
+    position: relative;
+}
+video {
+  display: block;
+  margin-bottom: 12px;
+}
+
+video,
+.content h1 {
+  -webkit-column-span: all;
+  -moz-column-span: all;
+  column-span: all;
+  clear: both;
+}
+
+.cnvs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* to avoid seeing the video in color for a second before the JavaScript runs
+   * show a black background instead */
+  background-color: black;
+  margin-bottom: 25px;
+}
+
+.myCanvas {
+  border: 2px dotted black;
+  margin: 0 20px;
+}
+
+.vc {
+  width: 373px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ctrl {
+  position: absolute;
+  bottom: 0px;
+  opacity: .5;
+  -webkit-transition: opacity .7s linear;
+  transition: opacity .7s linear;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  display: none;
+}
+.pp,
+.mu {
+  width: 25px;
+  height: 25px;
+  float: left;
+  text-indent: -9999em;
+  border-right: solid 1px #000;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.paused {
+  background: #ccc url(../images/controls-sprite.png) no-repeat 0 -75px;
+}
+.playing {
+  background-position: 0 -50px;
+}
+.timer {
+  width: 321px;
+  height: 25px;
+  background: #ccc;
+  float: left;
+  text-align: center;
+  line-height: 25px;
+  overflow: hidden;
+}
+.mu {
+  overflow: hidden;
+}
+.unmuted {
+  background: #ccc url(../images/controls-sprite.png) no-repeat 0 -25px;
+}
+.muted {
+  background-position: 0 0;
+}
+
+#canvasOverlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  margin-bottom: 25px;
+}

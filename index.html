@@ -1,0 +1,192 @@
+<!doctype html>
+<html class="no-js" lang="en" manifest="herald.appcache">
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+  <link rel="stylesheet" href="css/normalize.css?v=1.0">
+  <link rel="stylesheet" href="css/style.css?v=1.0.7">
+
+  <script src="js/modernizr.min.js"></script>
+
+
+</head>
+<body class="hyphenate">
+<header>
+    <h1><span>The </span><a href="index.html">HTML5 <img src="images/logo.png" alt=""> Herald</a></h1>
+    <h2 class="tagline">Produced with That Good ol' Timey HTML5 &amp; CSS3</h2>
+  <p id="volume">Vol. MMXI</p>
+  <p id="issue"><time datetime="1904-06-04" pubdate>June 4, 1904</time></p>
+  <nav>
+    <ul>
+      <li><a href="#top">Home</a></li>
+      <li><a href="register.html">Sign Up</a></li>
+      <li><a href="canvas.html">Canvas Demos</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <div id="primary">
+    <article id="ac1">
+      <div class="vc">
+        <video width="373" height="280" preload="" id="video" poster="images/ford-plane-still.png">
+          <!-- MP4 must be first for iPad! -->
+          <source src="media/ford-plane-takes-off.mp4" type="video/mp4"><!-- Safari / iOS video -->
+          <source src="media/ford-plane-takes-off.ogv" type="video/ogg"><!-- Firefox / Opera / Chrome10 -->
+            <!-- fallback to Flash: -->
+          <object width="373" height="280" type="application/x-shockwave-flash" data="jwplayer/player.swf">
+            <!-- Firefox uses the 'data' attribute above, IE/Safari uses the param below -->
+            <param name="movie" value="jwplayer/player.swf">
+            <param name="allowFullScreen" value="true">
+            <param name="wmode" value="transparent">
+            <param name="flashvars" value="controlbar=over&amp;image=images/ford-plane-still.png&amp;file=../media/ford-plane-takes-off.mp4">
+            <!-- fallback image. note the title field below, put the title of the video there -->
+            <img src="images/ford-plane-still.png" id="video-still" width="373" height="280" alt="Airplane" title="No video playback capabilities, please download the video below">
+          </object>
+        </video>
+      <canvas id="canvasOverlay" width="373" height="280"></canvas>
+      <div class="ctrl">
+        <div id="playPause" class="pp paused" tabindex="1" title="Play">Play/Pause</div>
+        <div id="timer" class="timer">00:00</div>
+        <div id="muteUnmute" class="mu unmuted" tabindex="2">Mute/Un­mute</div>
+      </div><!-- #controls -->
+
+    </div><!-- /#video-container -->
+
+    <h1>Video is the final frontier, and now we have conquered it!</h1>
+      <div class="content">
+        <p>Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla.</p>
+        <p>In condimentum orci id nisl volutpat bibendum. Quisque commodo hendrerit lorem quis egestas. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>
+        <p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla. In condimentum orci id nisl volutpat bibendum. Quisque commodo hendrerit lorem quis egestas. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+        <p>Neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla. In condimentum orci id nisl volutpat bibendum. Quisque commodo hendrerit lorem quis egestas. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+      </div>
+    </article>
+    <article>
+      <h1>Great Things Are Possible with CSS Columns! Pip Pip Pip!</h1>
+      <div class="content">
+        <p>Maecenas quis tortor arcu. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+        <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. </p>
+        <p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla. In condimentum orci id nisl volutpat bibendum. Quisque commodo hendrerit lorem quis egestas. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+        <p>Neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla. In condimentum orci id nisl volutpat bibendum. Quisque commodo hendrerit lorem quis egestas. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+        <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. </p>
+      </div>
+    </article>
+  </div>
+  <div id="secondary">
+    <article id="ac2">
+      <header>
+        <h1>Text Shadow is the New Black</h1>
+        <h2>How do we do it?</h2>
+      </header>
+      <div class="content">
+        <p>Maecenas quis tortor arcu. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+        <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. </p>
+      </div>
+    </article>
+
+    <article id="ac3">
+      <h1>Wai-Aria? HAHA!</h1>
+      <h2 id="catHeading">Form Accessibility</h2>
+
+      <img src="images/cat.png" id="cat" alt="WAI-ARIA Cat">
+      <div class="content">
+      	<p id="mouseContainer" class="mc">
+			    <img src="images/computer-mouse-pic.png" alt="computer mouse" id="mouse1" draggable="true">
+				  <img src="images/computer-mouse-pic.png" alt="computer mouse" id="mouse2" draggable="true">
+				  <img src="images/computer-mouse-pic.png" alt="computer mouse" id="mouse3" draggable="true">
+        </p>
+        <p>Maecenas quis tortor arcu. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum.</p>
+        <p>Nam vestibulum, arcu sodales feugiat.</p>
+      </div>
+    </article>
+
+    <article id="ac4">
+      <h1>Modernizr Times</h1>
+      <p>A New Era</p>
+
+      <div class="content">
+        <p>Maecenas quis tortor arcu. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum.</p>
+        <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. </p>
+      </div>
+    </article>
+  </div>
+
+  <div id="tertiary">
+    <aside>
+
+      <article class="ad-ad1">
+        <h1>Wanted</h1>
+        <p>Dead or Alive</p>
+        <a href="http://sitepoint.com/books/htmlcss1/" class="wanted">&lt;HTML5&gt; &amp; {CSS3}</a>
+        <p>Reward: Happiness and satisfaction</p>
+      </article>
+
+      <article class="ad-ad2">
+        <h1>Put your <span>dukes</span> up sire</h1>
+        <p>It&rsquo;s time for a good old thrashing.<br>
+           I will rotate your moustache OFF!</p>
+      </article>
+      <article class="ad-ad3">
+        <h1><a href="http://sitepoint.com/books/htmcss1/">HTML5 and CSS3 <br/>Now in Book Form!</a></h1>
+      </article>
+      <article class="ad-ad4">
+        <div id="mapDiv">
+        	<h1 id="geoHeading">Where in the world are you?</h1>
+  		    <form id="geoForm">
+  			     <input type="button" id="geobutton" value="Tell us!">
+  		    </form>
+  		    <div class="spin" id="spinner"></div>
+        </div>
+      </article>
+    </aside>
+
+
+    <article id="ac5">
+      <header>
+        <h1>CSS Transitions - The State of Play</h1>
+        <h2>The future?</h2>
+      </header>
+
+      <div class="content">
+        <p>Maecenas quis tortor arcu. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+        <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+        <p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+
+        <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at. vestibulum. Nulla at.</p>
+        <p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+
+        <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at. vestibulum. Nulla at.</p>
+      </div>
+    </article>
+
+  </div>
+</main>
+
+<footer>
+  <article id="authors">
+    <section><h1>Alexis Goldstein</h1>
+        <p>Maecenas quis tortor arcu. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+    </section>
+    <section><h1>Louis Lazaris</h1>
+      <p>Maecenas quis tortor arcu. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+    </section>
+    <section>
+      <h1>Estelle Weyl</h1>
+              <p>Maecenas quis tortor arcu. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+    </section>
+
+  </article>
+  <section id="footerinfo">
+    <small>&copy; SitePoint </small>
+    <p><a href="http://www.sitepoint.com"><img src="images/logo-sp.png" alt="SitePoint" width="70" height="23"></a></p>
+  </section>
+</footer>
+<script src="js/hyphenator.js"></script>
+<script src="js/raphael-min.js"></script>
+<script src="js/videoControls.js"></script>
+<script src="js/dragDrop.js"></script>
+<script src="js/geolocation.js"></script>
+<script src="js/videoToBW.js"></script>
+<!-- google maps API -->
+<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
+</body>
+</html>

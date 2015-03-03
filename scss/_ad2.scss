@@ -1,0 +1,34 @@
+aside > article:nth-of-type(2),
+.ad-ad2 {
+  background-image: url(../images/dukes.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform  2s linear 250ms;
+  transition: transform  2s linear 250ms;
+  min-height: 140px;
+  h1 {
+    font-size: 20px;
+    font-family: AcknowledgementMedium;
+    padding: 0 30px 0 75px;
+    line-height:1;
+    color: #999;
+    margin: 0 0 0 15px;
+    text-align: left;
+    span {
+      font-size: 30px;
+      color: #999999;
+      display:inline-block;
+      -webkit-transition: color 0.2s ease-out, -webkit-transform 0.2s ease-out;
+      transition: color 0.2s ease-out, transform 0.2s ease-out;
+    }
+    &:hover span {
+      color: #484848;
+      -webkit-transform:rotate(10deg) translateX(40px) scale(1.5);
+      transform:rotate(10deg) translateX(40px) scale(1.5);
+    }
+  }
+  p {
+    padding: 5px 3px 0 75px;
+    font-size: 0.85em;
+  }
+}

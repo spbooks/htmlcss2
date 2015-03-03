@@ -1,0 +1,66 @@
+
+aside {
+  float: left;
+  width: 246px;
+  margin-right: 0;
+  padding-left: 4px;
+  h1,
+  h2 {
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+  }
+  article {
+    width: 236px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  p + a {
+    display: block;
+    text-decoration: none;
+    border: 5px double;
+    color: #ffffff;
+    background-color: #484848;
+    text-align: center;
+    font-size: 28px;
+    margin: 5px 5px 9px 5px;
+    padding: 15px 0;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 2px 5px 0 0 rgba(72,72,72,1);
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+    font-family: AcknowledgementMedium, sans-serif;
+  }
+}
+
+.draganddrop .mc {
+  text-align: center;
+}
+
+.no-draganddrop .mc {
+  visibility: hidden;
+  height: 0;
+}
+
+a.wanted:hover {
+  box-shadow: 4px 10px #484848;
+  top: -5px;
+  left: -2px;
+  position: relative;
+}
+.holding {
+  /* WebKit */
+  -webkit-transition: all 0.3s ease;
+  /* Standard */
+  transition: all 0.3s ease;
+}
+.md {
+  height: 140px;
+  width: 236px;
+}
+
+.spin {
+  position: absolute;
+  top: 8px;
+  left: 55px;
+}

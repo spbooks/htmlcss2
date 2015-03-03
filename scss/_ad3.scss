@@ -1,0 +1,50 @@
+.ad-ad3 {
+  background-image:
+    url(../images/bg-bike.png),
+    url(../images/gradient.svg);
+  /* Gradient syntax for WebKit */
+  background-image:
+    url(../images/bg-bike.png),
+    -webkit-linear-gradient(top,
+    rgba(0,0,0,0.4) 0,
+    rgba(0,0,0,0) 37%,
+    rgba(0,0,0,0) 83%,
+    rgba(0,0,0,0.06) 92%,
+    rgba(0,0,0,0) 98%);
+  /* Unprefixed W3C syntax */
+  background-image:
+    url(../images/bg-bike.png),
+    linear-gradient(to bottom,
+    rgba(0,0,0,0.4) 0,
+    rgba(0,0,0,0) 37%,
+    rgba(0,0,0,0) 83%,
+    rgba(0,0,0,0.06) 92%,
+    rgba(0,0,0,0) 98%);
+
+  background-position: 50% 88%, 0 0;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  -webkit-transition: background-position  1s linear 250ms;
+  transition: background-position  1s linear 250ms;
+  h1 {
+    color: #484848;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #fff;
+    font-family: LeagueGothic, Arial Narrow, Helvetica, sans-serif;
+    font-size: 42px;
+    letter-spacing: -1px;
+    margin: 20px 5px;
+    text-shadow: #fff 1px 1px;
+  }
+  a {
+    text-decoration: none;
+  }
+  &:hover {
+    background-position: 150% 88%, 0 0;
+  }
+
+  article h1 a:after {
+    content: "";
+  }
+}

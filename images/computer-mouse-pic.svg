@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) --><svg height="60.0000000" id="svg1" inkscape:version="0.38.1" sodipodi:docbase="/home/danny/flat/scalable/actions" sodipodi:docname="mouse.svg" sodipodi:version="0.32" version="1.0" width="60.0000000" x="0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" y="0">
+  <metadata>
+    <rdf:RDF xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work rdf:about="">
+        <dc:title>Part of the Flat Icon Collection (Wed Aug 25 23:31:03 2004)</dc:title>
+        <dc:description></dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>hash</rdf:li>
+            <rdf:li></rdf:li>
+            <rdf:li>computer</rdf:li>
+            <rdf:li>icons</rdf:li>
+            <rdf:li>device</rdf:li>
+            <rdf:li>theme</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://www.openclipart.org">
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date></dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" id="base" inkscape:cx="37.042490" inkscape:cy="27.245348" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="685" inkscape:window-width="1016" inkscape:window-x="0" inkscape:window-y="0" inkscape:zoom="4.9119411" pagecolor="#ffffff"/>
+  <defs id="defs3">
+    <linearGradient id="linearGradient772">
+      <stop id="stop773" offset="0" style="stop-color:#000;stop-opacity:1;"/>
+      <stop id="stop774" offset="1" style="stop-color:#fff;stop-opacity:1;"/>
+    </linearGradient>
+    <linearGradient id="linearGradient775" xlink:href="#linearGradient772"/>
+  </defs>
+  <path d="M 32.158488,21.627263 C 34.637673,4.5503835 41.416321,1.2932948 47.825325,7.4453482 C 54.234330,13.597402 57.495291,4.5244676 57.495291,4.5244676" id="path600" sodipodi:nodetypes="ccc" sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.50000000)" style="font-size:12.000000;fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#7f7f7f;stroke-width:3.1250000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1250000,3.1250000;stroke-dashoffset:0.0000000;"/>
+  <path d="M 3.5596735,45.856942 C 2.3031484,50.059763 11.278584,57.665090 15.227168,55.670373 C 25.636551,49.360030 44.388649,37.478370 42.063658,32.893762 C 38.016182,23.731906 30.376556,17.465665 20.792062,15.202773 C 15.059678,14.030447 7.4208059,34.175537 3.5596735,45.856942 z " id="path599" sodipodi:nodetypes="ccccc" style="fill:#7f7f7f;fill-rule:evenodd;stroke:none;stroke-opacity:1;stroke-width:3.125;stroke-linejoin:round;stroke-linecap:round;fill-opacity:1;stroke-dasharray:none;"/>
+  <path d="M 20.734472,15.336662 C 18.097985,14.797476 15.061215,18.840787 12.171175,24.422909 L 35.180950,42.137822 C 39.699663,38.455272 42.987382,35.006721 41.979293,33.018891 C 37.931816,23.857035 24.995719,15.204094 20.734472,15.336662 z " id="path613" sodipodi:nodetypes="ccccc" style="fill:#666666;fill-rule:evenodd;stroke:none;stroke-opacity:1;stroke-width:3.125;stroke-linejoin:round;stroke-linecap:round;fill-opacity:1;stroke-dasharray:none;"/>
+  <path d="M 23.745810,32.409890 L 32.529167,20.698748" id="path604" sodipodi:nodetypes="cc" sodipodi:stroke-cmyk="(0 0 0 0.8)" style="font-size:12.000000;fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#333333;stroke-width:2.5000000;stroke-dasharray:none;"/>
+  <path d="M 3.5596735,45.856942 C 1.6377426,51.922899 10.213934,58.197415 15.227168,55.670373 C 25.636551,49.360030 44.122487,37.345289 42.329820,31.829113 C 40.810886,25.595042 26.916447,15.602529 20.792062,15.202773 C 14.128109,14.163528 7.4208059,34.175537 3.5596735,45.856942 z " id="path833" sodipodi:nodetypes="ccccc" sodipodi:stroke-cmyk="(0 0 0 0.8)" style="fill:none;fill-rule:evenodd;stroke:#333333;stroke-width:3.1250000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;"/>
+  <path d="M 11.502344,25.489669 C 19.620295,29.881348 28.137490,36.003081 33.993060,42.657139" id="path834" sodipodi:nodetypes="cc" sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)" style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#333333;stroke-width:2.5000000;stroke-dasharray:none;"/>
+</svg>

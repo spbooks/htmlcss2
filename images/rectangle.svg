@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 400 400">
+
+  <desc>Drawing a rectangle</desc>
+
+  <rect x="10" y="10" width="100" height="100"
+        fill="blue" stroke="red" stroke-width="3"  />
+</svg>
+

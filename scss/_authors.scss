@@ -1,0 +1,19 @@
+#authors {
+  padding-top: 10px;
+  padding-right: 20px;
+  background-color: #d1d1d1;
+  border: solid 1px #888;
+  border-width: 1px 0;
+  overflow: hidden;
+  display: flex;
+  h1 {
+    margin: 0;
+  }
+   section {
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+  &:nth-of-type(2) {
+      order: 2;
+    }
+  }
+}

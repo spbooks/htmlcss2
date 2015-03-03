@@ -1,0 +1,67 @@
+/* HEADER */
+body > header {
+  border-top:  solid 1px #8e8e8e;
+  border-bottom: solid 1px #8e8e8e;
+  margin: 1px auto;
+  padding-top: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo {
+  vertical-align: top;
+}
+
+.h {
+  text-align: center;
+  margin-left: 30px;
+}
+
+body > header {
+    text-align: center;
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+    position: relative;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    line-height: .9;
+  }
+  h1 span {
+    position: absolute;
+    left: 40px;
+    top: 40%;
+    font-size: 30%;
+  }
+  h1 a:hover,
+  h1 a:active {
+    text-decoration: none;
+  }
+  p {
+    line-height: 29px;
+    font-size: 12px;
+    font-size: 0.75rem;
+    margin: 0;
+  }
+  #volume {
+    float: left;
+  }
+  time {
+    float: right;
+  }
+}
+
+.issue {
+  right: 0;
+  text-align: right;
+}
+.tagline {
+  text-transform: lowercase;
+  background-image: none;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: none;
+  font-weight: normal;
+  line-height: 2;
+}

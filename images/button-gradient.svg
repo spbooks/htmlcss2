@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20050904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<title>Button Gradient</title>
+ <defs> 
+  <radialGradient id="grad"  cx="30%" cy="120%" fx="30%" fy="120%" r="50%" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#909090" />
+    <stop offset="1" stop-color="#484848" />
+  </radialGradient>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" style="fill:url(#grad)"  />
+</svg>
