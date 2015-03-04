@@ -337,7 +337,7 @@ aside > article:nth-of-type(2),
   /* Gradient syntax for WebKit */
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4) 0, transparent 37%, transparent 83%, rgba(0, 0, 0, 0.06) 92%, transparent 98%);
   /* Unprefixed W3C syntax */
-  background-image: linear-gradient(top, rgba(0, 0, 0, 0.4) 0, transparent 37%, transparent 83%, rgba(0, 0, 0, 0.06) 92%, transparent 98%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0, transparent 37%, transparent 83%, rgba(0, 0, 0, 0.06) 92%, transparent 98%);
   background-position: 0 0;
   background-repeat: no-repeat;
   padding-bottom: 10px; }
